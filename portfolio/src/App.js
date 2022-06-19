@@ -1,12 +1,16 @@
 
 import './App.css';
-import Intro from './componens/intro/Intro';
+import About from './components/about/About';
+import Intro from './components/intro/Intro';
+import Resources from './components/resources/Resources';
 
 function App() {
   return (
     <div>
-     <h2>Portfolio</h2>
+    
      <Intro/>
+     <About/>
+     <Resources/>
     </div>
   );
 }
