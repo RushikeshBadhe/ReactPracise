@@ -1,6 +1,7 @@
 import React from 'react'
 import Resource from '../resource/Resource';
 import './resources.css'
+import { data } from './data';
 function Resources() {
   return (
     <div className='r1'>
@@ -11,10 +12,9 @@ function Resources() {
 
         </div>
         <div className='r1-list'>
-            <Resource/>
-            <Resource/>
-            <Resource/>
-            <Resource/>
+        {data.map((d)=>{
+      return(<Resource key={d.id} link={d.link} img={d.img}/>)
+     })}
   
         </div>
     </div>
