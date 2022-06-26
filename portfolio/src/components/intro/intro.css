@@ -1,7 +1,6 @@
 .i{
     display: flex;
     height: 100vh;
-    
 }
 .i-left{
     flex: 1;
@@ -89,7 +88,8 @@
         padding: 10px;
         text-align: center;
         justify-content: center;
-        height: 50%;
+        height: 60%;
     }
+  
     
 }
