@@ -26,6 +26,8 @@ function About() {
     <h2 className='a-title'>At Present</h2>
     <p>Working In MNC As</p>
     <p className='a-main'>Software Engineer</p>
+    <p>Stated working from</p>
+    <p className='a-main'>August 2021</p>
     </div>
     </div>
   )
