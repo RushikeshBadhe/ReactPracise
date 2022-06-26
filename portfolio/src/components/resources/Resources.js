@@ -13,7 +13,7 @@ function Resources() {
         </div>
         <div className='r1-list'>
         {data.map((d)=>{
-      return(<Resource key={d.id} link={d.link} img={d.img}/>)
+      return(<Resource key={d.id} link={d.link} img={d.img} name={d.name}/>)
      })}
   
         </div>

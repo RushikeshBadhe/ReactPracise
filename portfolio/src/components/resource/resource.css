@@ -8,9 +8,13 @@
 }
 .r-browser{
     height: 20px;
-    background-color: solid rgb(170, 28, 28);
+    background-color: rgb(110, 110, 154);
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
+    text-align: center;
+    
 }
 .r-circle{
     width: 6px;
@@ -21,4 +25,19 @@
 }
 .p-img{
     width: 100%;
+    transition: all 10s ease;
+}
+.r:hover .p-img{
+    transform: translateY(-100%);
+}
+.r-title{
+    
+}
+@media screen and (max-width:480px) {
+    .r{
+        width: 70%;
+        height: 30vh;
+    }
+  
+
 }
