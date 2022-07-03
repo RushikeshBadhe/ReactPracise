@@ -20,6 +20,7 @@
 }
 .a-right{
     flex: 1;
+    margin-top: 2px;
 }
 .a-title2{
     margin-top: 1rem;
@@ -73,6 +74,19 @@
         height: 100%;
         border-radius: 5px;
         
-    }
+    } 
+}
 
+@media (min-width:481px) and (max-width:1010px) {
+    .a{
+        flex-direction: column;
+    }
+    .a-right{
+        margin-top: 20px;
+        padding: 70px;
+    }
+    .a-left{
+        margin-top: 50px;
+        width: 100%;
+    }
 }
