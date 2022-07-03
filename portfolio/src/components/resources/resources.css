@@ -21,7 +21,7 @@
 }
 @media screen and (max-width:480px) {
     .r1{
-      padding-top: 66px;
+      padding-top: 15rem;
       padding-bottom: 10px;
        }
     .r1-list{
@@ -33,6 +33,6 @@
 @media (min-width:481px) and (max-width:1010px) {
     .r1{
         padding-top: 100px;
-        margin-top: 28rem;
+        margin-top: 33rem;
     }
 }
